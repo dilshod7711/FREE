@@ -39,7 +39,7 @@
       class="min-h-screen bg-no-repeat bg-cover bg-center bg-[url('/img/header.png')] lg:bg-[url('/img/header.png')] md:bg-[url('/img/header2.png')] sm:bg-[url('/img/header3.png')] xs:bg-[url('/img/header4.png')]"
     >
       <div
-        class="max-w-full xl:max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16"
+        class="max-w-full xl:max-w-[1200px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[35px]"
       >
         <nav
           class="flex flex-col sm:flex-row justify-between py-4 sm:py-5 md:py-6 lg:py-8 gap-4 sm:gap-0"
@@ -107,23 +107,25 @@
         </div>
       </div>
     </div>
-    <section>
+    <section class="">
       <div class="container max-w-[1200px] mx-auto">
         <h1
-          class="text-[var(--second-color)] xl:text-[38px] lg:text-[34px] md:text-[34px] sm:text-[32px] xs:text-[32px] mt-[60px] py-[10px] xl:max-w-[600px] lg:max-w-[500px] md:max-w-[500px] sm:max-w-[400px] xs:max-w-[290px] xs:ml-[10px]"
+          class="text-[var(--second-color)] xl:text-[38px] lg:text-[34px] md:text-[34px] sm:text-[32px]  xs:text-[32px] mt-[60px] xl:max-w-[600px] lg:max-w-[500px] md:max-w-[550px] sm:max-w-[450px] xs:max-w-[320px] xs:ml-[35px]"
         >
           Что такое фирменный стиль
         </h1>
         <div
-          class="flex mx-auto xl:flex-row lg:flex-row md:flex-col sm:flex-col mx-auto xs:flex-col gap-4"
+          class="flex xl:flex-row  xs:ml-[40px] lg:flex-row md:flex-col sm:flex-col mx-auto xs:flex-col gap-4"
         >
           <img
-            class="xl:w-[635px] lg:w-[450px] md:w-[400px] sm:w-[510px] xs:w-[290px]"
+            class="xl:w-[635px] lg:w-[450px] md:w-[500px] sm:w-[450px] xs:w-[290px]"
             src="./img/img1.png"
             alt=""
           />
           <div>
-            <div class="flex flex-col gap-[20px]">
+            <div
+              class="flex flex-col gap-[20px] mx-auto xl:align-center xl:justify-center lg:align-center lg:justify-center"
+            >
               <p
                 class="xl:text-[18px] lg:text-[16px] md:text-[16px ] sm:text-[14px] xs:text-[14px] xl:max-w-[475px] lg:max-w-[500px] md:max-w-[450px] sm:max-w-[400px] xs:max-w-[290px]"
               >
@@ -144,6 +146,59 @@
                 “говорить” с ним на одном языке.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container max-w-[1200px] mx-auto">
+        <div class="px-[35px]">
+          <h1
+            class="mt-[60px] xl:max-w-[1200px]  lg:max-w-[932px] md:max-w-[620px] sm:max-w-[460px] xs:max-w-[350px] text-[var(--second-color)] xl:text-[45px]   lg:text-[40px] md:text-[40px] sm:text-[30px] xs:text-[30px]"
+          >
+            Название и логотип – важные составляющие фирменного стиля, но на
+            этом всё только начинается. Ниже основные элементы:
+          </h1>
+        </div>
+        <div class="grid xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1  gap-[20px] mt-[50px] justify-center p-[10px] xs:px-[40px]">
+          <div class="flex xl:flex-row gap-[10px] ">
+            <h2 class="xl:text-[45px]  lg:text-[45px] ">1</h1>
+              <p class="xl:text-[16px] xl:mt-[35px] max-w-[83px] xs:max-w-[160px]">Название компании</p>
+          </div>
+          <div class="flex xl:flex-row gap-[10px]  ">
+            <h2 class="xl:text-[45px] lg:text-[45px]  ">2</h2>
+            <p class="xl:text-[16px] xl:mt-[35px] max-w-[107px] xs:max-w-[212px]">Логотип – основной графический символ</p>
+          </div>
+          <div class="flex xl:flex-row gap-[10px]">
+            <h2 class="xl:text-[45px] lg:text-[45px]  ">3</h2>
+            <p class="xl:text-[16px] xl:mt-[35px] max-w-[122px] xs:max-w-[210px]">Фирменные цвета всей коммуникации (онлайн и оффлайн)</p>
+          </div>
+          <div class="flex xl:flex-row gap-[10px] ">
+            <h2 class="xl:text-[45px] lg:text-[45px]  ">4</h2>
+            <p class="xl:text-[16px] xl:mt-[35px]">Шрифт</p>
+          </div>
+          <div class="flex xl:flex-row gap-[10px]">
+            <h2 class="xl:text-[45px] lg:text-[45px]  ">5</h2>
+            <div class="flex flex-col gap-[10px] md:max-w-[500px]">
+              <p class="xl:text-[16px] xl:mt-[35px] max-w-[140px] xs:max-w-[230px]">Носители фирменного стиля</p>
+              <p class="xl:text-[14px] max-w-[500px] xs:max-w-[210px]">Этот набор варьируется в зависимости от нужд и потребностей компании: визитные карточки, фирменные бланки и прочая деловая документация, упаковка, сувенирная продукция, брендинг автотранспорта.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-[100px]">
+      <div class="container max-w-[1200px ] mx-auto ">
+      <div class="flex xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse xs:flex-col-reverse gap-[80px] xl:px-[35px] lg:px-[35px]">
+          <div class="flex xl:flex-col lg:flex-col md:flex-col  gap-[20px] xl:mt-[60px] lg:mt-[30px] md:max-w-[585px] sm:flex-col xs:flex-col">
+            <p class="xl:max-w-[396px] lg:max-w-[370px] xl:text-[16px] xl:text-[var(--second-color)] lg:text-[14px]">Каждая задача по разработке фирменного стиля уникальна для нас — это новый вызов и новые эмоции. Мы принципиально не предлагаем вам стандартизированные пакеты “эконом”, “стандрат”, или “премиум”, мы не штампуем, мы - создаем.</p>
+             <p class="xl:max-w-[396px] lg:max-w-[370px] xl:text-[16px] xl:text-[var(--second-color)] lg:text-[14px]">
+            Стоимость разработки фирменного стиля в нашем агентстве начинается от 120 000 руб., финальную планку без брифинга определить невозможно - давайте созвонимся и обсудим ваш проект! </p>
+            <p class="xl:max-w-[396px] lg:max-w-[385px] xl:text-[16px] text-[var(--main-color)] bg-[#2B59C3] rounded-[6px] p-[10px] lg:text-[14px]" >Каждый клиент нашего агентства получает приятный бонус на финише проекта, о котором мы расскажем ниже ▼</p>
+          </div> 
+          <div class="flex xl:flex-col lg:flex-col md:flex-col gap-[10px] sm:flex-col xs:flex-col">
+            <h2 class="xl:text-[38px] xl:text-[var(--second-color)] lg:text-[31px] md:text-[34px]">Сколько стоит фирменный стиль?</h2>
+            <img src="./img/Rectangle 20.png" alt="">
           </div>
         </div>
       </div>
